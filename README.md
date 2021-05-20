@@ -5,6 +5,5 @@ with [Object Detection API with TensorFlow 2](https://github.com/tensorflow/mode
 
 Or I install and setup all requirements: You only download and extract file [here](https://drive.google.com/file/d/1WgWjp6OOpT5FVKhSB35TEuplSrqbrgny/view?usp=sharing). Then you SET `PATHPYTHON` in System variables
 
-![image](https://user-images.githubusercontent.com/76576719/118927439-fc45bc80-b96b-11eb-9f17-7e5b3010e99a.png)
-![image](https://user-images.githubusercontent.com/76576719/118927549-25664d00-b96c-11eb-9e24-e125137d95f4.png)
+![image](https://user-images.githubusercontent.com/76576719/118927439-fc45bc80-b96b-11eb-9f17-7e5b3010e99a.png) ![image](https://user-images.githubusercontent.com/76576719/118927549-25664d00-b96c-11eb-9e24-e125137d95f4.png)
 
