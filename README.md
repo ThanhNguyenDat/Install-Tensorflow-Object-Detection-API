@@ -33,8 +33,13 @@ with [Object Detection API with TensorFlow 2](https://github.com/tensorflow/mode
   - ![image](https://user-images.githubusercontent.com/76576719/119086595-e7caf800-ba2f-11eb-96ea-b258a34b3339.png)
   - Open new command propt, and cd into TF2_ObjDetect_API/models/research/ directory and run the following command:
     - `protoc object_detection/protos/*.proto --python_out=.`
-- ### 4. Copy `TF2_ObjDetect_API\models\research\object_detection\packages\tf2\setup.py` into `TF2_ObjDetect_API\models\research`
-  - run the following command from within TF2_ObjDetect_API\models\research: `python -m pip install .`
+- ### 4. Build and install
+  We choose one of two ways
+  - 4.1 Copy TF2_ObjDetect_API\models\research\object_detection\packages\tf2\setup.py into TF2_ObjDetect_API\models\research
+  - run the following command from within TF2_ObjDetect_API\models\research:
+    - python setup.py built
+    - python setup.py install
+  - 4.2 run the following command from within TF2_ObjDetect_API\models\research: `python -m pip install .`
 - ### 5. Test your Installation
   - run the following command from within TF2_ObjDetect_API\models\research: 
   - `python object_detection/builders/model_builder_tf2_test.py`
