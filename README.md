@@ -1,5 +1,16 @@
 # Training_Custom_SSD
 
+### Install necessary library
+- Open Command Propt with Administrator with python > 3.5
+- pip install numpy
+- pip install pillow
+- pip install lxml
+- pip install matplotlib
+- pip install jupyter
+- pip install tensorflow==2.4.1 (if cuda 11.0)
+- pip install tensorflow-gpu==2.4.1
+
+
 ## A: You install and setup Tensorflow Object Detection API 
 with [Object Detection API with TensorFlow 2](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2.md) or [Tensorflow 2 Object Detection tutorial](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html#tensorflow-object-detection-api-installation)
 
