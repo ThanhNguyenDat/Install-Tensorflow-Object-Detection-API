@@ -17,5 +17,6 @@ with [Object Detection API with TensorFlow 2](https://github.com/tensorflow/mode
   - Download last release (e.g protoc-3.17.0-win64.zip) in the TF2_ObjDetect_API Folder
   - Extract file here in the TF2_ObjDetect_API Folder and then rename Google Protobuf ![image](https://user-images.githubusercontent.com/76576719/119086064-1eecd980-ba2f-11eb-9be7-7dc318c8b5d4.png)
   - Add path directory Google Protobuf to your `Path` environment variable
+  - ![image](https://user-images.githubusercontent.com/76576719/119086595-e7caf800-ba2f-11eb-96ea-b258a34b3339.png)
   - Open new command propt, and cd into TF2_ObjDetect_API/models/research/ directory and run the following command:
     - `protoc object_detection/protos/*.proto --python_out=.`
