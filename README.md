@@ -36,7 +36,8 @@ with [Object Detection API with TensorFlow 2](https://github.com/tensorflow/mode
 - ### 4. Copy `TF2_ObjDetect_API\models\research\object_detection\packages\tf2\setup.py` into `TF2_ObjDetect_API\models\research`
   - run the following command from within TF2_ObjDetect_API\models\research: `python -m pip install .`
 - ### 5. Test your Installation
-  - run the following command from within TF2_ObjDetect_API\models\research: `python object_detection/builders/model_builder_tf2_test.py`
+  - run the following command from within TF2_ObjDetect_API\models\research: 
+  - `python object_detection/builders/model_builder_tf2_test.py`
   - If the result is as shown in the image below, then you are successful 
   - ![image](https://user-images.githubusercontent.com/76576719/119088154-6a54b700-ba32-11eb-822a-be6cbf1c6078.png)
 
