@@ -15,4 +15,4 @@ with [Object Detection API with TensorFlow 2](https://github.com/tensorflow/mode
 
   - Head to the [protoc releases page](https://github.com/protocolbuffers/protobuf/releases)
   - Download last release (e.g protoc-3.17.0-win64.zip) in the Tensorflow Folder
-  - Extract 
+  - Extract file here in the Tensorflow Folder 
