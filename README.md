@@ -5,11 +5,9 @@ with [Object Detection API with TensorFlow 2](https://github.com/tensorflow/mode
 
 ### 0. Create Folde Tensorflow and open command propt in here ![image](https://user-images.githubusercontent.com/76576719/119084497-17780100-ba2c-11eb-90fc-acf16e23658a.png) 
 
-### 1. Download models of tensorflow api with: `git clone https://github.com/tensorflow/models.git` in Tensorflow folder
+- ### 1. Download models of tensorflow api with: `git clone https://github.com/tensorflow/models.git` in Tensorflow folder and `cd models`
 
-### 2 `cd models`
-
-### You set variable `PYTHONPATH` in System variables
+- ### 2. You set variable `PYTHONPATH` in System variables
 
 ![image](https://user-images.githubusercontent.com/76576719/118927439-fc45bc80-b96b-11eb-9f17-7e5b3010e99a.png) ![image](https://user-images.githubusercontent.com/76576719/118927549-25664d00-b96c-11eb-9e24-e125137d95f4.png)
 
