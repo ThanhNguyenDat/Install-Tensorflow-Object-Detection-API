@@ -9,7 +9,9 @@
 - pip install jupyter
 - pip install tensorflow==2.4.1 (if cuda 11.0)
 - pip install tensorflow-gpu==2.4.1
-
+- # COCO API
+- pip install cython
+- pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
 
 ## A: You install and setup Tensorflow Object Detection API 
 with [Object Detection API with TensorFlow 2](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2.md) or [Tensorflow 2 Object Detection tutorial](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html#tensorflow-object-detection-api-installation)
@@ -31,3 +33,10 @@ with [Object Detection API with TensorFlow 2](https://github.com/tensorflow/mode
   - ![image](https://user-images.githubusercontent.com/76576719/119086595-e7caf800-ba2f-11eb-96ea-b258a34b3339.png)
   - Open new command propt, and cd into TF2_ObjDetect_API/models/research/ directory and run the following command:
     - `protoc object_detection/protos/*.proto --python_out=.`
+- ### 4. Copy `TF2_ObjDetect_API\models\research\object_detection\packages\tf2\setup.py` into `TF2_ObjDetect_API\models\research`
+  - run the following command from within TF2_ObjDetect_API\models\research: `python -m pip install .`
+- ### 5. Test your Installation
+  - run the following command from within TF2_ObjDetect_API\models\research: `python object_detection/builders/model_builder_tf2_test.py`
+  - If the result is as shown in the image below, then you are successful 
+  - ![image](https://user-images.githubusercontent.com/76576719/119088154-6a54b700-ba32-11eb-822a-be6cbf1c6078.png)
+
