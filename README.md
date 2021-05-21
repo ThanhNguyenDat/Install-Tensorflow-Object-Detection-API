@@ -11,3 +11,8 @@ with [Object Detection API with TensorFlow 2](https://github.com/tensorflow/mode
 
 - ![image](https://user-images.githubusercontent.com/76576719/119084983-ffed4800-ba2c-11eb-9dec-9b68f9998448.png)
 
+- ### 3. Protobuf Installation and Compilation
+
+  - Head to the [protoc releases page](https://github.com/protocolbuffers/protobuf/releases)
+  - Download last release (e.g protoc-3.17.0-win64.zip) in the Tensorflow Folder
+  - Extract 
