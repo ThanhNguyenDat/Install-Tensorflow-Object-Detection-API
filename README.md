@@ -1,4 +1,4 @@
-# Training_Custom_SSD
+# Install Tensorflow Object Detection API
 
 ### Install necessary library
 - Open Command Propt with Administrator with python > 3.5
