@@ -7,7 +7,7 @@
 - pip install lxml
 - pip install matplotlib
 - pip install jupyter
-- pip install tensorflow==2.4.1 (if cuda 11.0 for CPU)
+- pip install tensorflow==2.4.1
 - pip install tensorflow-gpu==2.4.1 (if cuda 11.0 for GPU)
 - # COCO API
 - pip install cython
