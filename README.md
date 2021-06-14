@@ -44,5 +44,6 @@ with [Object Detection API with TensorFlow 2](https://github.com/tensorflow/mode
   - run the following command from within TF2_ObjDetect_API\models\research: 
   - `python object_detection/builders/model_builder_tf2_test.py`
   - If the result is as shown in the image below, then you are successful 
-  - ![image](https://user-images.githubusercontent.com/76576719/119088154-6a54b700-ba32-11eb-822a-be6cbf1c6078.png)
+  - ![image](![image](https://user-images.githubusercontent.com/76576719/121954132-9856be00-cd88-11eb-835e-ab68d410a406.png)
+)
 
