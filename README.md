@@ -1,5 +1,5 @@
 # Install Tensorflow Object Detection API
-
+Download and install visuall studio and check Desktop Development with C++
 ### Install necessary library.
 
 - Open Command Propt with Administrator with python > 3.5
