@@ -18,7 +18,7 @@ Download and install Git.
 - pip install cython
 - pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
 
-## A: You install and setup Tensorflow Object Detection API.
+## A. You install and setup Tensorflow Object Detection API.
 
 with [Object Detection API with TensorFlow 2](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2.md)
 
