@@ -6,7 +6,7 @@ Download and install Git.
 
 ### Install necessary library.
 
-- Open Command Propt with Administrator with python > 3.5
+- Open Command Propt with Administrator with python > 3.5 (I used version 3.7)
 - pip install numpy
 - pip install pillow
 - pip install lxml
