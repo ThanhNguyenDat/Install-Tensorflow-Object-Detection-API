@@ -41,7 +41,7 @@ in Tensorflow folder and `cd models`.
  
   - Add path directory Google Protobuf to your `Path` environment variable.
     
-    note:   The path will be set temporarily, to make the change permanent you have to set it in the “Advanced system settings” → “Environment Variables” tab. 
+    note:   The path will be set temporarily, to make the change permanent you have to set it in the `“Advanced system settings” → “Environment Variables”` tab. 
             Restart The Cmd or PowerShell window for changes to take effect.
   
   ![image](https://user-images.githubusercontent.com/76576719/122653765-20fea100-d171-11eb-87a9-f50026647491.png)
