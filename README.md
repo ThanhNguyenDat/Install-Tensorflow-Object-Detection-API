@@ -25,7 +25,8 @@ with [Object Detection API with TensorFlow 2](https://github.com/tensorflow/mode
 - ### 0. Create TF2_ObjDetect_API folder and open command propt in here ![image](https://user-images.githubusercontent.com/76576719/119085857-b7368e80-ba2e-11eb-9daf-127977fe78bf.png)
 
 - ### 1. Download models of tensorflow api with: 
-    `git clone https://github.com/tensorflow/models.git`
+    
+        git clone https://github.com/tensorflow/models.git
 
 in Tensorflow folder and `cd models`.
 
@@ -54,8 +55,8 @@ in Tensorflow folder and `cd models`.
 
 - ### 4. Build and install.
   We choose one of two ways.
-  - 4.1 Copy TF2_ObjDetect_API\models\research\object_detection\packages\tf2\setup.py into TF2_ObjDetect_API\models\research
-  - run the following command from within TF2_ObjDetect_API\models\research:
+  Copy TF2_ObjDetect_API\models\research\object_detection\packages\tf2\setup.py into TF2_ObjDetect_API\models\research
+  - 4.1 run the following command from within TF2_ObjDetect_API\models\research:
                
         python setup.py built
     
