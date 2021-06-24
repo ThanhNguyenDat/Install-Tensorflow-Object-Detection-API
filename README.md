@@ -44,26 +44,32 @@ in Tensorflow folder and `cd models`.
   - Add path directory Google Protobuf to your `Path` environment variable.
     
     note:   The path will be set temporarily, to make the change permanent you have to set it in the “Advanced system settings” → “Environment Variables” tab. 
-            
             Restart The Cmd or PowerShell window for changes to take effect.
   
   - ![image](https://user-images.githubusercontent.com/76576719/122653765-20fea100-d171-11eb-87a9-f50026647491.png)
 
   - Open new command propt, and cd into TF2_ObjDetect_API/models/research/ directory and run the following command:
-    - `protoc object_detection/protos/*.proto --python_out=.`
+  
+        protoc object_detection/protos/*.proto --python_out=.`
+
 - ### 4. Build and install.
   We choose one of two ways.
   - 4.1 Copy TF2_ObjDetect_API\models\research\object_detection\packages\tf2\setup.py into TF2_ObjDetect_API\models\research
   - run the following command from within TF2_ObjDetect_API\models\research:
-    - python setup.py built
-    - python setup.py install
-  - 4.2 run the following command from within TF2_ObjDetect_API\models\research: `python -m pip install .`
+               
+        python setup.py built
+    
+        python setup.py install
+                
+  - 4.2 run the following command from within TF2_ObjDetect_API\models\research: 
+   
+        python -m pip install .
   
 - ### 5. Test your Installation.
 
   - run the following command from within TF2_ObjDetect_API\models\research: 
   
-  - `python object_detection/builders/model_builder_tf2_test.py`
+        python object_detection/builders/model_builder_tf2_test.py
   
   - If the result is as shown in the image below, then you are successful.
  
