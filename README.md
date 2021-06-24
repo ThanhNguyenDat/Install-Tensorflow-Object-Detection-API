@@ -9,7 +9,7 @@ Download and install Git.
 Open Command Propt with Administrator with python > 3.5 (I used version 3.7) and tensorflow=2.4.1
 
         pip install -r requirements.txt
-COCO
+COCOAPI
  
         pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
 
