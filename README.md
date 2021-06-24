@@ -49,8 +49,9 @@ in Tensorflow folder and `cd models`.
         protoc object_detection/protos/*.proto --python_out=.`
 
 - ### 4. Build and install.
-  We choose one of two ways.
   Copy TF2_ObjDetect_API\models\research\object_detection\packages\tf2\setup.py into TF2_ObjDetect_API\models\research
+  
+  We choose one of two ways. (I used 4.2)
   - 4.1 run the following command from within TF2_ObjDetect_API\models\research:
                
         python setup.py built
