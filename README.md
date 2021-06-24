@@ -6,17 +6,12 @@ Download and install Git.
 
 ### Install necessary library.
 
-- Open Command Propt with Administrator with python > 3.5 (I used version 3.7)
-- pip install numpy
-- pip install pillow
-- pip install lxml
-- pip install matplotlib
-- pip install jupyter
-- pip install tensorflow==2.4.1
-- pip install tensorflow-gpu==2.4.1 (if cuda 11.0 for GPU)
-- # COCO API
-- pip install cython
-- pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
+- Open Command Propt with Administrator with python > 3.5 (I used version 3.7) and tensorflow=2.4.1
+
+        pip install -r requirements.txt
+ COCO
+ 
+        pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
 
 ## A. You install and setup Tensorflow Object Detection API.
 
