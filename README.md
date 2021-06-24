@@ -27,7 +27,7 @@ in Tensorflow folder and `cd models`.
 
 - ### 2. You set variable `PYTHONPATH` in System variables.
 
-- ![image](https://user-images.githubusercontent.com/76576719/119085684-5f982300-ba2e-11eb-8567-713d264814f0.png)
+![image](https://user-images.githubusercontent.com/76576719/119085684-5f982300-ba2e-11eb-8567-713d264814f0.png)
 
 - ### 3. Protobuf Installation and Compilation.
 
@@ -35,14 +35,16 @@ in Tensorflow folder and `cd models`.
   
   - Download last release (e.g protoc-3.17.0-win64.zip) in the TF2_ObjDetect_API Folder.
   
-  - Extract file here in the TF2_ObjDetect_API Folder and then rename Google Protobuf ![image](https://user-images.githubusercontent.com/76576719/119086064-1eecd980-ba2f-11eb-9be7-7dc318c8b5d4.png)
+  - Extract file here in the TF2_ObjDetect_API Folder and then rename Google Protobuf 
+  
+  ![image](https://user-images.githubusercontent.com/76576719/119086064-1eecd980-ba2f-11eb-9be7-7dc318c8b5d4.png)
  
   - Add path directory Google Protobuf to your `Path` environment variable.
     
     note:   The path will be set temporarily, to make the change permanent you have to set it in the “Advanced system settings” → “Environment Variables” tab. 
             Restart The Cmd or PowerShell window for changes to take effect.
   
-  - ![image](https://user-images.githubusercontent.com/76576719/122653765-20fea100-d171-11eb-87a9-f50026647491.png)
+  ![image](https://user-images.githubusercontent.com/76576719/122653765-20fea100-d171-11eb-87a9-f50026647491.png)
 
   - Open new command propt, and cd into TF2_ObjDetect_API/models/research/ directory and run the following command:
   
@@ -70,5 +72,5 @@ in Tensorflow folder and `cd models`.
   
   - If the result is as shown in the image below, then you are successful.
  
-  - ![image](https://user-images.githubusercontent.com/76576719/122653738-e7c63100-d170-11eb-944a-65b9758aceab.png)
+  ![image](https://user-images.githubusercontent.com/76576719/122653738-e7c63100-d170-11eb-944a-65b9758aceab.png)
 
