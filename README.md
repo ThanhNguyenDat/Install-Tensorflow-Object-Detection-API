@@ -25,7 +25,7 @@ with [Object Detection API with TensorFlow 2](https://github.com/tensorflow/mode
 
 in Tensorflow folder and `cd models`.
 
-- ### 2. You set variable `PYTHONPATH` in System variables.
+- ### 2. You need to set variable `PYTHONPATH` in System variables.
 
 ![image](https://user-images.githubusercontent.com/76576719/119085684-5f982300-ba2e-11eb-8567-713d264814f0.png)
 
